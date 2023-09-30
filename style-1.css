@@ -1,8 +1,11 @@
 
 *{
 	box-sizing: border-box;
-	font-family:cursive;
+	font-family:calistoga, sans-serif;
+	font-style: italic;
 }
+
+
 ul{
 	margin: 0;
 	padding: 0;
@@ -17,7 +20,7 @@ html body{
 .container1{
 	position: relative;
 	text-align: center;
-	font-family: ;
+	
 }
 .container1 h1 {
 	position:absolute;
@@ -27,6 +30,7 @@ html body{
 	transform: translate(-50%, -50% );
 	font-size: 3.5vw;
 	font-style:italic ;
+	font-family: Russo One;
 	letter-spacing: 0.05em;
 	text-shadow: 0px 0px 0px;
 	 animation-name: header;
@@ -36,6 +40,19 @@ html body{
 	 animation-timing-function: ease-in-out;
 	 animation-fill-mode: forwards;
 }
+ .container1 h1:hover{
+ 	color: #e8a238;
+	font-size: 3.3vw;
+	letter-spacing: 0.2em;
+    transition: all 0.3s ease;
+}
+@keyframes header{
+	from {color: #e8a238;}
+	to   {color:darkgreen; }
+	from {letter-spacing: 3em}
+	to   {letter-spacing: 0.05em}
+}
+
 .container1 h2{
 	position:absolute;
 	color:darkgreen;
@@ -44,20 +61,15 @@ html body{
 	transform: translate(-50%, -50% );
 	font-size: 3.5vw;
 	font-style:italic ;
+	font-family: Russo One;
 	letter-spacing: 0.05em;
 	text-shadow: 0px 0px 0px;
 }
- .container1 h1:hover{
+.container1 h2:hover{
  	color: #e8a238;
 	font-size: 3.3vw;
 	letter-spacing: 0.2em;
     transition: all 0.3s ease;
-} 
-@keyframes header{
-	from {color: #e8a238;}
-	to   {color:darkgreen; }
-	from {letter-spacing: 3em}
-	to   {letter-spacing: 0.05em}
 }
 
 .social{
@@ -157,13 +169,14 @@ nav a{
 	display: inline-block;
 	text-decoration: none;
 	color: floralwhite;
+	font-family: Russo One;
 	padding: .5em;
-	font-size: 25px;
+	font-size: 22px;
 }
  nav a:hover {
  	transform:translate3d(1px, 1px, 0px) ;
 	color: #e8a238;
-	font-size: 24px;
+	font-size: 21px;
 	transition: all 0.3s ease;
 }
 a:active{
@@ -179,6 +192,7 @@ a:active{
 .container{
 	max-width: 1000px;
 	padding: 1.5em;
+	font-size: 1.5vw;
 }
                                   /* Divorce */
 .row:after {
