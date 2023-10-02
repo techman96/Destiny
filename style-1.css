@@ -100,6 +100,11 @@ html body{
 	text-decoration: none;
     width: 20px;
 }
+.social img:hover{
+	width:25px;
+	background:#e8a238 ;
+	transition: all 0.3s ease;
+}
 
 .search{
 	position: absolute;
